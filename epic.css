@@ -1,0 +1,12 @@
+body{
+	font-family: 'Ravi Prakash', cursive;
+  	background-color: royalblue;
+}
+#first{
+	color: firebrick;
+	font-size: 400%;
+	text-align: center;
+	border:5px dashed firebrick;
+	padding-top: 10px;
+	
+}
