@@ -1,11 +1,27 @@
-html, body{
+*{margin:0; padding:0; border:none;}
+html{
 	font-family: 'Ravi Prakash', cursive;
-  	background-color: royalblue;
+  	background: url(images/ACDC_stage.jpg);
+	background-size: cover;
+}
+body{
 }
 #first{
-	color: firebrick;
+	color: maroon;
 	font-size: 400%;
 	text-align: center;
-	border:5px dashed firebrick;
 	padding-top: 10px;
+}
+.keys{
+	display: flex;
+	flex: 1;
+	min-height: 80vh;
+	align-items: center;
+	justify-content: center;
+}
+kbd{
+	display:block;
+	font-size:40px;
+	color: white;
+	background-color:black;
 }
