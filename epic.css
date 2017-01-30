@@ -10,7 +10,7 @@ body{
 	color: maroon;
 	font-size: 400%;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 1vw;
 }
 .keys{
 	display: flex;
@@ -29,10 +29,10 @@ body{
 	width: 3.5vw;
 }
 .key kbd{
-	display:block;
-	font-size:40px;
+	display: block;
+	font-size: 300%;
 }
 .key span{
-	font-size: 75%;
 	display: block;
+	font-size: 75%;
 }
