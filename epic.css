@@ -13,11 +13,26 @@ body{
 	text-align: center;
 	padding-top: 1vw;
 }
+.group1, .group2{
+	width: 50%;
+	text-align: right;
+	float: left;
+}
+.group2{
+	text-align: left;
+	float: right;
+}
+.group1::after, .group2::after{
+	content: '';
+	clear: both;
+}
 .keys{
+	/*width: 80%;*/
+	/*margin: 0 auto;*/
 	display: flex;
-	flex: 1;
 	min-height: 80vh;
 	align-items: center;
+	/*justify-content: space-around;*/
 	justify-content: center;
 }
 .key{
