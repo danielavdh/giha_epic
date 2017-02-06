@@ -1,7 +1,8 @@
 *{margin:0; padding:0; border:none; font-size:100%;}
 html{
 	font-family: 'Ravi Prakash', cursive;
-  	background: url(images/ACDC_stage.jpg);
+	font-size: 1.25vw;
+  	background: #660000 url(images/ACDC_stage.jpg) no-repeat;
 	background-size: cover;
 }
 body{
